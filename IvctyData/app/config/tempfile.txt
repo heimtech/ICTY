@@ -1,0 +1,22 @@
+product_create:
+    path:      /products/create
+    defaults:  { _controller: "AppBundle:Products:create" }
+    methods:  [POST]
+
+
+product_single:
+    path:      /products/get
+    defaults:  { _controller: "AppBundle:Products:getSingleProduct" }
+    methods:  [POST]
+
+
+message_create:
+    path:      /message/create
+    defaults:  { _controller: "AppBundle:Message:create" }
+    methods:  [POST]
+
+
+message_list:
+    path:      /message/list
+    defaults:  { _controller: "AppBundle:Message:list" }
+    methods:  [POST]
